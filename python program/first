@@ -1,0 +1,22 @@
+#python printing
+print("Hello");
+a=10;
+print(type(a));
+b=2.1;
+print(type(b));
+c=True;
+print(type(c));
+#string
+#1.contenation in string
+d="Hello ";
+e="Muskan";
+print(d+e);
+#2.multiplication in string
+print(d* 3);
+#3.slicing in string
+s="Lifeisbeautifull";
+#forward printing
+print(s[0:4:1]); #1 is not mendatory there is no changes before and after using 1 here
+f="helloworld";
+#backward printing
+print(f[2:-4]);
