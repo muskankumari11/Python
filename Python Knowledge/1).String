@@ -1,0 +1,21 @@
+#indexing
+str="apnadin"
+substr=str[2]
+print(substr)
+
+#slicing in string
+"""str="hiiRama"
+substr=str[1:3]
+print(substr)"""
+
+#slicing negative index
+"""str="apple"
+substr=str[-3:-2]
+print(substr)"""
+
+#w.a.p to input users first name and print its length
+"""name=input("enter ur name")
+print("length of ur name is", len(name))"""
+#w.a.p to find the occurence of $ in a string
+"""str="hii i $am khush$ $200"
+print(str.count("$"))"""
