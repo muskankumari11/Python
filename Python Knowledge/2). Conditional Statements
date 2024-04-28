@@ -1,0 +1,30 @@
+"""age=20
+if(age>=18):
+    print("allowed to vote and applied for lisence")
+    print("can drive")"""
+#conditional->syntax
+"""light="gray"
+if(light=="red"):
+    print("stop")
+elif(light=="green"):
+    print("go")
+elif(light=="yellow"):
+    print("look")
+else:
+    print("light is broken")
+#grade student based on marks
+#marks>=90, grade="A"
+#90>marks >=80 , grade="B"
+#80>marks>=70, grade="C"
+#70>marks, grade="D" 
+
+marks=int(input("inter marks"))
+if(marks>=90):
+    print("A")
+else if(marks<90 && marks>=80):
+    print("B")
+else if(marks<80 && marks>=70):
+    print("C")
+else if(marks<70):
+    print("D")
+print("grade of the student->", grade)
