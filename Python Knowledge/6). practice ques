@@ -1,0 +1,38 @@
+#ques1). store following word meanings in a python dictionary:
+#table:"a piece of furniture", "list of facts and figures"
+#cat:"A small animal"
+
+"""dictionary={
+    "cat": "a small animal",
+    "table": ["a piece of furniture, list of o"]
+}
+print(dictionary) """
+
+#ques2). you Re given a list of subjets for students. assume one classroom is required for 1 subject how many classroom are needed by all student
+#python,java,c++,javascript
+#java,python,java,c++,c
+
+subjects={
+    "python","java","c++","python","javascript","java",
+    "python","java","c++","c"
+}
+print(len(subjects))
+
+#write a program to enter marks of 3 subjects from the user and store them in a dictionary start with an emoty dictionary and add one by one use subject name as key and marks as value
+
+"""marks={}
+x=int(input("enter phy"))
+marks.update({"phy":x})
+x=int(input("enter che"))
+marks.update({"che": x})
+x=int(input("enter math"))
+marks.update({"math":x})
+print(marks)"""
+
+#ques). figure out a way to store 9 & 9.0 as seperate values in the set (you can take help from built in data)
+
+values={
+    ("float",9.0),
+    ("int",9)
+}
+print(values)
