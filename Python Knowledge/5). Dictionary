@@ -1,0 +1,44 @@
+#dictionary
+"""info = {
+    "key": "value",
+    "name": "shradha",
+    "subjects": ["c", "python", "c++"],
+    "topics": ("dict", "sets"),
+    "learning": "coding",
+    33:44
+}
+
+print(info)
+"""
+
+#nested dictionary
+"""student={
+    "name": "suman",
+    "subjects": {
+        "phy":69,
+        "che":66,
+        "eng":88
+    }
+}
+print(student["subjects"]["che"]) """
+
+#dictionary methods
+student={
+    "name": "suman",
+    "subjects": {
+        "phy":69,
+        "che":66,
+        "eng":88
+    }
+}
+#print(len(list(student.keys())))
+#print(list(student.values()))
+"""pairs=list(student.items())
+print(pairs[0]) """
+
+#print(student["name2"])  #error
+#print(student.get("name2"))  #none
+
+new_dict={"city": "delhi", "age":15}
+student.update(new_dict)
+print(student)
