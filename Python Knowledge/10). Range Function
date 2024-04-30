@@ -1,0 +1,32 @@
+"""
+for i in range(10):
+    print(i)
+"""
+
+#3 methods to write range function
+#for i in range(10): #range(stop)
+    #print(i)
+    
+    #for i in range(2,10): #range(start,stop)
+    #print(i)
+    
+#for i in range(1,100,2): #range(start,stop,step)
+   # print(i)
+   
+#using for and range()
+#print number from 1 to 100
+"""
+for i in range(101):
+    print(i) """
+    
+#print numbers from 100 to 1
+"""
+for i in range(100,0,-1):
+    print(i)   """
+    
+#print the multiplication table of a number n
+
+n=int(input("enter number:"))
+for i in range(1,11):
+    print(n*i)
+    
