@@ -1,0 +1,17 @@
+#oop
+
+"""
+#class
+class student:
+    name = "khush"
+#object
+s1 = s = student()  # corrected class name
+print(s1) """
+
+"""
+class car:
+  color="blue"
+  brand="mercedes"
+car1=car()
+print(car1.color)
+print(car1.brand) """
