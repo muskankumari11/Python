@@ -1,0 +1,16 @@
+
+class Car:
+    def __init__(self):
+        self.acc = False
+        self.brk = False
+        self.clutch = False
+    
+    def start(self):
+        self.clutch = True
+        self.acc = True
+        print("Car started..")
+
+# Create an instance of Car
+car1 = Car()
+# Call the start method on the car1 instance
+car1.start()
